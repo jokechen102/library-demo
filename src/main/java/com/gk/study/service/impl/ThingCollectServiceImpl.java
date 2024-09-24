@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-class ThingCollectServiceImpl extends ServiceImpl<ThingCollectMapper, ThingCollect> implements ThingCollectService {
+public class ThingCollectServiceImpl extends ServiceImpl<ThingCollectMapper, ThingCollect> implements ThingCollectService {
     @Autowired
     ThingCollectMapper mapper;
 

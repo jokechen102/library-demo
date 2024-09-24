@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-class ThingWishServiceImpl extends ServiceImpl<ThingWishMapper, ThingWish> implements ThingWishService {
+public class ThingWishServiceImpl extends ServiceImpl<ThingWishMapper, ThingWish> implements ThingWishService {
     @Autowired
     ThingWishMapper mapper;
 
